@@ -1,0 +1,61 @@
+#contato, #formulario h2{
+  text-align: justify;
+  margin: 0px 40px 10px 40px;
+}
+#contato a {
+    color: brown;
+    text-decoration: underline;
+}
+
+hr {
+  opacity: 0%;
+  margin: 50px 0px;
+}
+
+#formulario {
+  background-color: #ffe3c2;
+border-radius: 10px;
+padding: 20px 10px;
+
+}
+
+form {
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+textarea {
+  height: 150px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: #db9730;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  width: 50%;
+}
+
+button[type="submit"]:hover {
+  background-color: #ecff1c;
+}

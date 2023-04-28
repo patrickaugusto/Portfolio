@@ -1,0 +1,14 @@
+#hobbies {
+  
+  text-align: justify;
+  margin: 0px 40px 10px 40px;
+}
+#livros img {
+    width: 5.5em;
+    height: 8em;
+}
+#jogos ul {
+    padding: 5px;
+    border-left: 2px solid rgb(146, 146, 146);
+    list-style: none;
+}
