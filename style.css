@@ -1,19 +1,17 @@
 *{
   font-family: Arial, Helvetica, sans-serif;
 }
-html, body {
+body {
   padding: opx;
   margin: 0px;
+  color:#a26f01;
+  text-align: center;
 }
-}
-body{
-  color:#a84d18;
- 
-}
+
 
 .cabeçalho {
  width: 100%;
-  background-color: #F2C7AE;
+  background-color: #ffe3c2;
   box-shadow: 0px 1px 0.5px 0.5px rgba(0, 0, 0, 0.2);
   padding: 5px 0px;
   margin-bottom: 50px;
@@ -21,15 +19,16 @@ body{
 .cabeçalho ol{
   text-align: right;
   list-style: none; 
+  padding: 10px;
 }
 .cabeçalho li {
   display: inline;
   color: rgb(95, 95, 95);
-  padding: 0px 5px 0px 5px;
 }
 .cabeçalho a {
   text-decoration: none;
   color: inherit;
+  padding: 5px;
 }
 .cabeçalho li :hover {
   color: rgb(0, 0, 0);
@@ -42,7 +41,4 @@ body{
 
 h1,h2,h3{
  color: #5c3311;
-}
-section {
-   text-align: center;
 }
